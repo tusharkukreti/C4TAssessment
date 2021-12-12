@@ -1,0 +1,15 @@
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\bin\Debug\net5.0\C4TAssessment.BusinessAbstraction.deps.json
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\bin\Debug\net5.0\C4TAssessment.BusinessAbstraction.dll
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\bin\Debug\net5.0\ref\C4TAssessment.BusinessAbstraction.dll
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\bin\Debug\net5.0\C4TAssessment.BusinessAbstraction.pdb
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\bin\Debug\net5.0\C4TAssessment.Models.dll
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\bin\Debug\net5.0\C4TAssessment.Models.pdb
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.csproj.AssemblyReference.cache
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.AssemblyInfoInputs.cache
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.AssemblyInfo.cs
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.csproj.CoreCompileInputs.cache
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.csproj.CopyComplete
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.dll
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\ref\C4TAssessment.BusinessAbstraction.dll
+C:\Projects\C4TAssessment\C4TAssessment.Abstraction\obj\Debug\net5.0\C4TAssessment.BusinessAbstraction.pdb

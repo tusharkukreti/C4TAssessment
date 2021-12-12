@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\C4TAssessment.Abstraction\C4TAssessment.BusinessAbstraction.csproj" />
+    <ProjectReference Include="..\C4TAssessment.DI\C4TAssessment.DI.csproj" />
+    <ProjectReference Include="..\C4TAssessment.Models\C4TAssessment.Models.csproj" />
+  </ItemGroup>
+
+</Project>

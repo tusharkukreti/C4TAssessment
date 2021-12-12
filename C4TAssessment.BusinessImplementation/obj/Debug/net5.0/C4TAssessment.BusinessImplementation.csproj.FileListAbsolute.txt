@@ -1,0 +1,17 @@
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.BusinessImplementation.deps.json
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.BusinessImplementation.dll
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\ref\C4TAssessment.BusinessImplementation.dll
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.BusinessImplementation.pdb
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.BusinessAbstraction.dll
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.Models.dll
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.BusinessAbstraction.pdb
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\bin\Debug\net5.0\C4TAssessment.Models.pdb
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.csproj.AssemblyReference.cache
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.AssemblyInfoInputs.cache
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.AssemblyInfo.cs
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.csproj.CoreCompileInputs.cache
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.csproj.CopyComplete
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.dll
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\ref\C4TAssessment.BusinessImplementation.dll
+C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\obj\Debug\net5.0\C4TAssessment.BusinessImplementation.pdb

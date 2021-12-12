@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "x9xpsvKGB9qw7pvU4NnW8VRLSLfml+cNsq1FBXwSQG+BXSzV+01uHfabNOyjSHwuhg9cjwLFnWdTjMfapHxjGA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

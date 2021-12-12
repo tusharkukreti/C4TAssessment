@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\C4TAssessment\\C4TAssessment.API\\C4TAssessment.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj",
+        "projectName": "C4TAssessment.BusinessAbstraction",
+        "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj",
+        "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\C4TAssessment\\C4TAssessment.API\\C4TAssessment.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.API\\C4TAssessment.API.csproj",
+        "projectName": "C4TAssessment.API",
+        "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.API\\C4TAssessment.API.csproj",
+        "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj"
+              },
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.DI\\C4TAssessment.DI.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.DI\\C4TAssessment.DI.csproj"
+              },
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
+        "projectName": "C4TAssessment.BusinessImplementation",
+        "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
+        "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\C4TAssessment\\C4TAssessment.DI\\C4TAssessment.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.DI\\C4TAssessment.DI.csproj",
+        "projectName": "C4TAssessment.DI",
+        "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.DI\\C4TAssessment.DI.csproj",
+        "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj"
+              },
+              "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj": {
+                "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj",
+        "projectName": "C4TAssessment.Models",
+        "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj",
+        "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

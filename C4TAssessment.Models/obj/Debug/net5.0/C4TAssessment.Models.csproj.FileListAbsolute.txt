@@ -1,0 +1,12 @@
+C:\Projects\C4TAssessment\C4TAssessment.Models\bin\Debug\net5.0\C4TAssessment.Models.deps.json
+C:\Projects\C4TAssessment\C4TAssessment.Models\bin\Debug\net5.0\C4TAssessment.Models.dll
+C:\Projects\C4TAssessment\C4TAssessment.Models\bin\Debug\net5.0\ref\C4TAssessment.Models.dll
+C:\Projects\C4TAssessment\C4TAssessment.Models\bin\Debug\net5.0\C4TAssessment.Models.pdb
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.AssemblyInfoInputs.cache
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.AssemblyInfo.cs
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.csproj.CoreCompileInputs.cache
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.dll
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\ref\C4TAssessment.Models.dll
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.pdb
+C:\Projects\C4TAssessment\C4TAssessment.Models\obj\Debug\net5.0\C4TAssessment.Models.csproj.AssemblyReference.cache
