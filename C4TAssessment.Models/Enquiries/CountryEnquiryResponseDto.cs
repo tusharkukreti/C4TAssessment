@@ -21,11 +21,7 @@ namespace C4TAssessment.Models.Enquiries
         /// Status Code of the API
         /// </summary>
         public int StatusCode { get; set; } = StatusCodes.Status200OK;
-        /// <summary>
-        /// Status message
-        /// </summary>
-        public string Message { get; set; }
-
+       
         /// <summary>
         /// Respone value
         /// </summary>

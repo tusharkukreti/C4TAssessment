@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C4TAssessment.BusinessImple
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C4TAssessment.Models", "C4TAssessment.Models\C4TAssessment.Models.csproj", "{4B3117A5-C896-482F-A603-8C139E2E001A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4TAssessment.DI", "C4TAssessment.DI\C4TAssessment.DI.csproj", "{7A78507D-0745-44F4-9A64-1038D932D265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C4TAssessment.DI", "C4TAssessment.DI\C4TAssessment.DI.csproj", "{7A78507D-0745-44F4-9A64-1038D932D265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4TAssessment.Test", "C4TAssessment.Test\C4TAssessment.Test.csproj", "{DBDF6859-977F-480D-BFD6-6D3B8A0FDE2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7A78507D-0745-44F4-9A64-1038D932D265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A78507D-0745-44F4-9A64-1038D932D265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A78507D-0745-44F4-9A64-1038D932D265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDF6859-977F-480D-BFD6-6D3B8A0FDE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDF6859-977F-480D-BFD6-6D3B8A0FDE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDF6859-977F-480D-BFD6-6D3B8A0FDE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDF6859-977F-480D-BFD6-6D3B8A0FDE2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,14 +42,12 @@ namespace C4TAssessment.BusinessImplementation
                 if (serializaedJsonStringResponse.Contains("Not Found"))
                 {
                     countryEnquiryResponseDto.StatusCode = StatusCodes.Status404NotFound;
-                    countryEnquiryResponseDto.Message = $"No country found having name: {enquiryRequest.Name}";
                 }
                 else
                 {
                     enquiryResponses = JsonConvert.DeserializeObject<List<EnquiryResponse>>(serializaedJsonStringResponse);
                     FillBrowserNameToResponse(enquiryResponses);
                 }
-                countryEnquiryResponseDto.Message = "Success";
                 countryEnquiryResponseDto.Response = enquiryResponses;
             }
             return countryEnquiryResponseDto;
