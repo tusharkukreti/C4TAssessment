@@ -280,11 +280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
+      "projectUniqueName": "C:\\Assessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
       "projectName": "C4TAssessment.BusinessImplementation",
-      "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
+      "projectPath": "C:\\Assessment\\C4TAssessment.BusinessImplementation\\C4TAssessment.BusinessImplementation.csproj",
       "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.BusinessImplementation\\obj\\",
+      "outputPath": "C:\\Assessment\\C4TAssessment.BusinessImplementation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -301,8 +301,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj": {
-              "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj"
+            "C:\\Assessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj": {
+              "projectPath": "C:\\Assessment\\C4TAssessment.Abstraction\\C4TAssessment.BusinessAbstraction.csproj"
             }
           }
         }

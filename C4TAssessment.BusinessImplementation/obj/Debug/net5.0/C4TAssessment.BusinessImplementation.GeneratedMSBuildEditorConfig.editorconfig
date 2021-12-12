@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = C4TAssessment.BusinessImplementation
-build_property.ProjectDir = C:\Projects\C4TAssessment\C4TAssessment.BusinessImplementation\
+build_property.ProjectDir = C:\Assessment\C4TAssessment.BusinessImplementation\

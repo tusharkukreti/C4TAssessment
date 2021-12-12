@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {}
+    "C:\\Assessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {
+    "C:\\Assessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj",
+        "projectUniqueName": "C:\\Assessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj",
         "projectName": "C4TAssessment.Models",
-        "projectPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj",
+        "projectPath": "C:\\Assessment\\C4TAssessment.Models\\C4TAssessment.Models.csproj",
         "packagesPath": "C:\\Users\\Tushar Kukreti\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\C4TAssessment\\C4TAssessment.Models\\obj\\",
+        "outputPath": "C:\\Assessment\\C4TAssessment.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tushar Kukreti\\AppData\\Roaming\\NuGet\\NuGet.Config",
