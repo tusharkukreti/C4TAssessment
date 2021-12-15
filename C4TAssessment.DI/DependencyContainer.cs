@@ -22,6 +22,5 @@ namespace C4TAssessment.DI
                 configuration["CloudConfig:QueueName"])
             );
         }
-
     }
 }

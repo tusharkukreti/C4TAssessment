@@ -1,4 +1,5 @@
 using C4TAssessment.DI;
+using C4TAssessment.Models.Enquiries;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
@@ -6,7 +7,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 using System.Net;
 
 namespace C4TAssessment.API
@@ -29,11 +32,11 @@ namespace C4TAssessment.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Customs4Trade Enquiries", Version = "v1" });
             });
-            DependencyContainer.RegisterServices(services,Configuration);
+            DependencyContainer.RegisterServices(services, Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             if (env.IsDevelopment())
             {
@@ -53,8 +56,16 @@ namespace C4TAssessment.API
                                  var exceptionObject = context.Features.Get<IExceptionHandlerFeature>();
                                  if (null != exceptionObject)
                                  {
-                                     var errorMessage = $"Exception Error: {exceptionObject.Error.Message} \n {exceptionObject.Error.StackTrace}";
-                                     await context.Response.WriteAsync(errorMessage).ConfigureAwait(false);
+                                     var errorItem = JsonConvert.SerializeObject
+                                         (new ErrorItem
+                                         (
+                                             context.Response.StatusCode,
+                                             exceptionObject.Error.Message,
+                                             exceptionObject.Error.StackTrace)
+                                         );
+                                     logger.LogError(errorItem);
+                                     await context.Response.WriteAsync
+                                     (errorItem).ConfigureAwait(false);
                                  }
                              });
                      }
