@@ -29,7 +29,7 @@ namespace C4TAssessment.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Customs4Trade Enquiries", Version = "v1" });
             });
-            DependencyContainer.RegisterServices(services);
+            DependencyContainer.RegisterServices(services,Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -19,13 +19,15 @@ namespace C4TAssessment.BusinessImplementation
     public class EnquiriesBusinessDomain : IEnquiriesBusinessDomain
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IAzureService _azureService;
         private readonly IConfiguration _configuration;
         private readonly string countryApiEndpoint;
-        public EnquiriesBusinessDomain(IHttpContextAccessor httpContextAccessor, IConfiguration configuration)
+        public EnquiriesBusinessDomain(IHttpContextAccessor httpContextAccessor, IConfiguration configuration, IAzureService azureService)
         {
             _httpContextAccessor = httpContextAccessor;
             _configuration = configuration;
             countryApiEndpoint = _configuration["Endpoints:CountryUrl"];
+            _azureService = azureService;
         }
 
         ///<inheritdoc/>
@@ -47,10 +49,22 @@ namespace C4TAssessment.BusinessImplementation
                 {
                     enquiryResponses = JsonConvert.DeserializeObject<List<EnquiryResponse>>(serializaedJsonStringResponse);
                     FillBrowserNameToResponse(enquiryResponses);
+                    PushEnquiryResponseToQueue(enquiryResponses);
                 }
                 countryEnquiryResponseDto.Response = enquiryResponses;
             }
+            
             return countryEnquiryResponseDto;
+        }
+
+        private void PushEnquiryResponseToQueue(List<EnquiryResponse> enquiryResponses)
+        {
+            var messagesToBePushed = new List<string>();
+            foreach(var response in enquiryResponses)
+            {
+                messagesToBePushed.Add(JsonConvert.SerializeObject(response));
+            }
+            _azureService.PushMessageToServiceBusQueue(messagesToBePushed);
         }
 
         private void FillBrowserNameToResponse(List<EnquiryResponse> enquiryResponses)
