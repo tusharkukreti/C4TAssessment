@@ -32,7 +32,6 @@ namespace C4TAssessment.API.Controllers
         [HttpPost]
         public async Task<IActionResult> EnquireCountries(EnquiryRequest enquiryRequest)
         {
-            throw new System.Exception("dsds");
             _logger.LogInformation("EnquireCountries: Starting operation..");
             var countryDetails = await _enquiriesBusinessDomain.GetCountryDetails(enquiryRequest);
             _logger.LogInformation($"EnquireCountries: Operation complete.");

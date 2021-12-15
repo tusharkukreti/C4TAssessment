@@ -4,6 +4,7 @@ using C4TAssessment.Test.Helpers;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
@@ -12,8 +13,13 @@ namespace C4TAssessment.Test.L0Tests
     public class TestEnquiries
     {
         public Mock<IEnquiriesBusinessDomain> mock = new Mock<IEnquiriesBusinessDomain>();
+        private Mock<ILogger<EnquiriesController>> mockLogger= new Mock<ILogger<EnquiriesController>>();
+
+      
+
         private const string invalidCountryName = "InvalidName";
         private const string validCountryName = "Mexico";
+
       
         [Fact]
         public async void EnquireCountriesShouldReturn404WhenInvalidCountryNameIsGiven()
@@ -21,7 +27,7 @@ namespace C4TAssessment.Test.L0Tests
             var responseDto = EnquiriesHelper.CountryEnquiryNotFoundResponseDto();
             var request = EnquiriesHelper.CreateEnquiryRequestDto(invalidCountryName);
             mock.Setup(x => x.GetCountryDetails(request)).ReturnsAsync(responseDto);
-            EnquiriesController enquiries = new EnquiriesController(mock.Object);
+            EnquiriesController enquiries = new EnquiriesController(mock.Object,mockLogger.Object);
             var result = (ObjectResult)await enquiries.EnquireCountries(request);
             result.StatusCode.Should().Be(StatusCodes.Status404NotFound);
         }
@@ -29,9 +35,9 @@ namespace C4TAssessment.Test.L0Tests
         public async void EnquireCountriesShouldReturnSuccessAndValidResultWhenValidCountryNameIsGiven()
         {
             var responseDto = EnquiriesHelper.CountryEnquirySuccessResponseDto();
-            var request = EnquiriesHelper.CreateEnquiryRequestDto(invalidCountryName);
+            var request = EnquiriesHelper.CreateEnquiryRequestDto(validCountryName);
             mock.Setup(x => x.GetCountryDetails(request)).ReturnsAsync(responseDto);
-            EnquiriesController enquiries = new EnquiriesController(mock.Object);
+            EnquiriesController enquiries = new EnquiriesController(mock.Object,mockLogger.Object);
             var result = (ObjectResult)await enquiries.EnquireCountries(request);
             result.StatusCode.Should().Be(StatusCodes.Status200OK);
             result.Value.Should().BeEquivalentTo(responseDto.Response);
